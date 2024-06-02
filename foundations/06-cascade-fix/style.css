@@ -17,7 +17,15 @@ body {
   font-size: 22px;
 }
 
-.confirm {
+
+/*
+  think this:
+  If an html element is selected by a selector,
+  that html element will add that selector to its list of selectors.
+  Then, goes through each property and sees which selector has the 
+  highest specificity value and applies it.
+*/
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
